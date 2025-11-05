@@ -131,7 +131,6 @@ This project is open source and available under the MIT License.
 ## 👨‍💻 Author
 
 **Riccardo Palazzi**
-- 🎵 TikTok: [@urbexxer](https://www.tiktok.com/@urbexxer)
 - 📸 Instagram: [@rrrriccardo](https://www.instagram.com/rrrriccardo/)
 - 💼 LinkedIn: [Riccardo Palazzi](https://www.linkedin.com/in/riccardo-palazzi-21512221b/)
 
