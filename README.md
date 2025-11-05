@@ -60,7 +60,7 @@ A full-featured, production-ready web application for online pizza ordering with
    DB_CONNECTION=mysql
    DB_HOST=127.0.0.1
    DB_PORT=3306
-   DB_DATABASE=pizza_app
+   DB_DATABASE=zero81
    DB_USERNAME=root
    DB_PASSWORD=
    ```
