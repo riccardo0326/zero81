@@ -40,8 +40,8 @@ A full-featured, production-ready web application for online pizza ordering with
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/YOUR-USERNAME/pizza-delivery-app.git
-   cd pizza-delivery-app
+   git clone [https://github.com/YOUR-USERNAME/pizza-delivery-app.git](https://github.com/riccardo0326/zero81.git)
+   cd zero81
    ```
 
 2. **Install dependencies:**
