@@ -1,139 +1,133 @@
-# 🍕 Pizza Delivery Web App
+# Pizza Delivery Web Application
 
-A full-featured, production-ready web application for online pizza ordering with home delivery. Browse our menu, customize your order, and enjoy delicious pizza delivered right to your door!
+A full-stack web application for managing online pizza orders and home delivery. The project provides a complete ordering workflow, from menu browsing and product selection to cart management and automatic order cost calculation.
 
 ![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
-![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
+![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge\&logo=laravel\&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge\&logo=bootstrap\&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge\&logo=mysql\&logoColor=white)
 
 ---
 
-## ✨ Features
+## Overview
 
-- **🏠 Landing Page** — Beautiful showcase of the pizzeria with featured menu items
-- **🍕 Menu Browser** — Explore our full pizza catalog with descriptions and prices
-- **🛒 Shopping Cart** — Add, remove, and manage your orders with ease
-- **💰 Smart Cost Calculator** — Automatic pricing including base cost, delivery fees, and taxes
-- **🎨 Modern UI** — Clean, intuitive interface built with Bootstrap
-- **⚡ Optimized Performance** — Fast loading and smooth interactions
+The application simulates a pizza delivery service, allowing customers to browse the available menu, manage their cart, and calculate the final order cost.
+
+The project was developed with **Laravel** as the backend framework, **MySQL** for data persistence, and **Bootstrap 5** for the responsive user interface.
 
 ---
 
-## 🛠️ Tech Stack
+## Features
 
-- **Backend:** Laravel (PHP framework)
-- **Frontend:** Bootstrap 5 (Responsive CSS framework)
-- **Database:** MySQL
-- **Server:** Ready to deploy on any PHP-compatible hosting
+* **Menu Management** — Browse pizzas with descriptions, prices, and available products.
+* **Shopping Cart** — Add, remove, and update items before completing an order.
+* **Order Cost Calculation** — Automatically calculates item costs, delivery fees, and applicable taxes.
+* **Responsive Interface** — Mobile-friendly UI built with Bootstrap 5.
+* **Database Integration** — Persistent storage for menu items and application data.
+* **Server-Side Architecture** — Backend logic and application routing implemented using Laravel.
+* **Seeded Database** — Included seeders for quickly populating the development database.
 
 ---
 
-## 🚀 Getting Started
+## Tech Stack
 
-### Prerequisites
-- PHP 8.0 or higher
-- Composer
-- MySQL or MariaDB
-- Node.js (optional, for asset compilation)
+| Layer              | Technology             |
+| ------------------ | ---------------------- |
+| Backend            | Laravel / PHP          |
+| Frontend           | Bootstrap 5, HTML, CSS |
+| Database           | MySQL / MariaDB        |
+| Package Management | Composer               |
+| Development Server | Laravel Artisan        |
+
+---
+
+## Getting Started
+
+### Requirements
+
+Before running the application, make sure the following tools are installed:
+
+* PHP 8.0+
+* Composer
+* MySQL or MariaDB
+* Node.js *(optional, depending on the asset pipeline)*
 
 ### Installation
 
-1. **Clone the repository:**
-   ```bash
-   git clone (https://github.com/riccardo0326/zero81.git)
-   cd zero81
-   ```
+#### 1. Clone the repository
 
-2. **Install dependencies:**
-   ```bash
-   composer install
-   ```
-
-3. **Set up environment file:**
-   ```bash
-   cp .env.example .env
-   php artisan key:generate
-   ```
-
-4. **Configure your database in `.env`:**
-   ```
-   DB_CONNECTION=mysql
-   DB_HOST=127.0.0.1
-   DB_PORT=3306
-   DB_DATABASE=zero81
-   DB_USERNAME=root
-   DB_PASSWORD=
-   ```
-
-5. **Run migrations:**
-   ```bash
-   php artisan migrate
-   ```
-
-6. **Seed the database (optional):**
-   ```bash
-   php artisan db:seed
-   ```
-
-7. **Start the development server:**
-   ```bash
-   php artisan serve
-   ```
-
-8. **Open your browser:**
-   ```
-   http://localhost:8000
-   ```
-
----
-
-## 📋 Project Structure
-
+```bash
+git clone https://github.com/riccardo0326/zero81.git
+cd zero81
 ```
-pizza-delivery-app/
-├── app/
-│   ├── Http/Controllers/
-│   ├── Models/
-│   └── ...
-├── database/
-│   ├── migrations/
-│   └── seeders/
-├── resources/
-│   ├── views/
-│   ├── css/
-│   └── js/
-├── routes/
-│   └── web.php
-├── public/
-└── ...
+
+#### 2. Install PHP dependencies
+
+```bash
+composer install
+```
+
+#### 3. Configure the environment
+
+Create a local `.env` file from the example configuration:
+
+```bash
+cp .env.example .env
+php artisan key:generate
+```
+
+#### 4. Configure the database
+
+Update the database configuration in `.env`:
+
+```env
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=zero81
+DB_USERNAME=root
+DB_PASSWORD=
+```
+
+Create the corresponding database before continuing.
+
+#### 5. Run migrations
+
+```bash
+php artisan migrate
+```
+
+#### 6. Populate the database
+
+To load the default development data:
+
+```bash
+php artisan db:seed
+```
+
+#### 7. Start the application
+
+```bash
+php artisan serve
+```
+
+The application will be available at:
+
+```text
+http://localhost:8000
 ```
 
 ---
 
-## 💡 Future Enhancements
+## License
 
-- Payment gateway integration (Stripe, PayPal)
-- User authentication & profiles
-- Order history
-- Reviews and ratings
-- Admin dashboard
-- Real-time delivery tracking
-- SMS notifications
+This project is released under the **MIT License**.
 
 ---
 
-## 📝 License
-
-This project is open source and available under the MIT License.
-
----
-
-## 👨‍💻 Author
+## Author
 
 **Riccardo Palazzi**
-- 📸 Instagram: [@rrrriccardo](https://www.instagram.com/rrrriccardo/)
-- 💼 LinkedIn: [Riccardo Palazzi](https://www.linkedin.com/in/riccardo-palazzi-21512221b/)
 
----
-
-**Happy ordering! 🍕**
+* Instagram — [@rrrriccardo](https://www.instagram.com/rrrriccardo/)
+* LinkedIn — [Riccardo Palazzi](https://www.linkedin.com/in/riccardo-palazzi-21512221b/)
